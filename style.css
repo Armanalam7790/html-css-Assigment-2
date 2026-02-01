@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+main{
+    height: 100%;
+  width: 100%;
+  background: #be9393;
+
+}
+.one{
+    height: fit-content;
+    width: 100%;
+    background: #afefeb;
+}
+.inner{
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-div{
+    height: 80px;
+    width: 80px;
+}
+.img-div img{
+    margin-top: 10px;
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 5px;
+}
+.inner h1{
+    font-size: 30px;
+    margin-top: 6px;
+    margin-bottom: px;
+   
+}
+.inner p{
+    margin-bottom: 10px;
+}
+
+/* ----------------- */
+
+.about{
+    height: 150px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 0 40px;
+    margin-top: 10px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+
+}
+.about h1{
+    font-size: 25px;
+    padding-top: 30px ;
+    padding-left: 50px;
+}
+
+.about p{
+    margin-top: 8px;
+    font-size: 17px;
+    padding-left: 50px;
+}
+.skill span{
+    background: #afefeb;
+    padding: 10px;
+    border-radius: 5px;
+}
+.skill{
+   display:  flex;
+   gap: 10px;
+   font-size: 14px;
+   margin-top: 5px;
+    
+    padding-left: 50px;
+    /* border-radius: 10px; */
+}
+/* ---------------------- */
+
+.profesnol{
+    height: fit-content;
+    width: 100%;
+    background: #ffffff;
+    margin-top: 10px;
+     padding: 0 90px;
+     text-transform: capitalize;
+     margin-bottom: 10px;
+}
+.profesnol h1{
+    font-size: 2.4rem;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.profesnol p{
+    font-size: 17px;
+    /* padding: 10px; */
+    /* margin-top: 3px; */
+}
+.profesnol span{
+    /* background: red; */
+    margin-top: 8px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+.profesnol ul{
+    padding-left: 50px;
+    color: #000000c3;
+}
+
+.profesnol h3{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.profesnol h5{
+    font-size: 1rem;
+    margin-top: 5px;
+    font-weight: 400;
+     color: #000000c3;
+}
+
+.profesnol .ul{
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #000000c3;
+}
+
+
+/* --------------------- */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background: #afefeb;
+    text-align: center;
+    
+}
+footer h1{
+    font-size: 1.5rem;
+    padding: 10px;
+}
